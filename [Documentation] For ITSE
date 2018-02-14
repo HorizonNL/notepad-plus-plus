@@ -1,1 +1,18 @@
-HERE
+Here is what we are going to talk about 
+
+1- In Microsoft Visual Studio 2017 you will need to set the compiler option in the Visual Studio development environment.
+In VS2017 you will be using /W4, which will pop some errors when building the Notepad++. You will need to turn it off so you dont have any
+errors when building Notepad++.
+--
+WHAT IS /W4
+/W4 displays level 1, level 2, and level 3 warnings, and all level 4 (informational) warnings that are not turned off by default.
+We recommend that you use this option only to provide lint-like warnings. 
+However, for a new project, it may be best to use /W4 in all compilations; this will ensure the fewest possible hard-to-find code defects.
+
+2- For the once who want to build SciLexer.dll you can you the latest version of the boost which it located in this link, 
+and it should be work with the VS2015, and VS2017.
+
+https://sourceforge.net/projects/boost/files/boost/1.55.0/
+
+
+3- 

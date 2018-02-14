@@ -1,0 +1,24 @@
+Steps to Reproduce:
+
+Click Settings –> Shortcut mapper.
+Choose "Scintilla commands" tab.
+Double click on "SCI_CHARLEFT" (or any other command).
+Check Alt and S. Leave Ctrl and Shift unchecked.
+Press "Add" to add this shortcut to the list. This will be second shortcut.
+Press "OK".
+Close the shortcuts window.
+Try to use Alt+S.
+Expected Behavior:
+Everything works without beep sounds.
+
+Actual Behavior:
+Everything works but with beep sound (because Alt key is used for menu). Also if there is already menu shortcut for that then:
+
+The menu will be opened.
+Shortcut Mapper will not display "CONFLICT FOUND".
+That mean it is 3 bugs in 1 (beep sound, menu opening and no CONFLICT FOUND label).
+
+Also there is workaround for second and third bugs but not for the first bug with beep sound.
+
+Link to the issue
+https://github.com/notepad-plus-plus/notepad-plus-plus/issues/3829

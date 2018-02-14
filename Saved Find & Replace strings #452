@@ -1,8 +1,0 @@
-This would be really useful.
-Just a flyout menu somewhere with a list of saved Find & Replace pairs and a "Save Search" option which lets you name it.
-
-It should work with all search functions (Find | Replace | Find in Files | Mark) in such a way that it saves all available fields and settings for the active search function, and when loaded in a different search function it loads only the applicable ones.
-
-link
-
-https://github.com/notepad-plus-plus/notepad-plus-plus/issues/452

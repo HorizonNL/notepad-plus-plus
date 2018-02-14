@@ -1,0 +1,11 @@
+Display a warning before opening large file #4162
+
+Hello,
+
+everything is in the title, sometime i open up huge file mistakenly (like logs ..) .. i have to kill the process :/ A prompt asking for a confirmation like "do you realy want to open this file (85Mb) ?" would be convenient.
+
+Regards!
+
+LINK 
+
+https://github.com/notepad-plus-plus/notepad-plus-plus/issues/4162

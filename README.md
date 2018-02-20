@@ -1,4 +1,6 @@
 What is Notepad++ ?
+
+Florida institute Of Technology student : Nabras Al Balushi
 ===================
 
 [![Join the disscussions at https://notepad-plus-plus.org/community/](https://notepad-plus-plus.org/assets/images/NppCommunityBadge.svg)](https://notepad-plus-plus.org/community/)

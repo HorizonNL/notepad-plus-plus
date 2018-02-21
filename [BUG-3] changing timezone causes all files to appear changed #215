@@ -1,0 +1,5 @@
+changing the windows timezone brings up the "this file has been changed by an external program" dialog for every open file.
+it looks like the timestamp comparison is not taking timezones into account? ( ennorehling commented on Jun 14, 2015)
+
+Link:
+https://github.com/notepad-plus-plus/notepad-plus-plus/issues/215

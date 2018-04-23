@@ -1,0 +1,40 @@
+Documentation ( fail to build Boost)
+
+1.First building Notepad++ with source:
+you need to follow the steps which you will find it at the following link: 
+https://github.com/notepad-plus-plus/notepad-plus-plus
+
+2.if you build scilexer.dll with boost you have to choose boost source code version which will work with your visual studio, in my condition boost_1_55_0 didn't work with VS2017
+so i choose Boost_1_64_0
+https://sourceforge.net/projects/boost/files/boost-binaries/
+
+3. For those who wants to build Notepad++ with Visual studio 2017. 
+4. make sure that when you download Visual studio you choose some options that you will find it with the Workloads summary which are: 
+  - VC++ 2017 toolset (x86, x64)
+  - Windows 10 SDK (10.0.16299.0) for desktop 
+  - VC++ 2015.3 v140 toolset for desktop (x86, x64)
+5. If you click in build note pad option and it shows to you some error then you have to follow these steps: 
+    - go to project properties
+    - click on C/C++
+    - choose turn off all warnings (/WO) that u will find it in Warning level
+6. if you tried to debug the project and it shows to you the following message: 
+   " ScintillaEditView::init : SCINTILLA ERROR can not load the dynamic library "
+   this message mean that you do not have scilexer.dll when you did the first step 
+   so,what you have to do? 
+   -you need to back to VS2017 and click on project properties to tell the linker where to look for libraries to link to.
+   To access this setting:
+    - right-click on the project name in the Solution Explorer window,
+    - then Properties → Linker → General → Additional Library Directories.
+    - Enter <boost_path>\stage\lib
+7. Also, you need to download SDK which you can find it at the following link:  
+   https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
+
+
+these steps will be helpful for who use:
+Notepad++ v7.5.4 (32-bit)
+operating system x64
+Windows 10
+VS2017
+boost_1_64_0
+
+    

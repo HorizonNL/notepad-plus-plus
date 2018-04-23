@@ -34,4 +34,4 @@ _stat automatically handles multibyte-character string arguments as appropriate,
 ** The  _wstat is a wide-character version of _stat; the path argument to _wstat is a wide-character string.
 _wstat and _stat behave identically except that _wstat does not handle multibyte-character strings.
 
-# For the timezone bug we just needed to add the time.h 
+# For the timezone bug we needed to add the time.h in the common Header (C/C++ Header). 

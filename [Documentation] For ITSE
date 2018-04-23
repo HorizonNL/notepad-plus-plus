@@ -1,4 +1,4 @@
-Here is what we are going to talk about 
+Documantation:
 
 1- In Microsoft Visual Studio 2017 you will need to set the compiler option in the Visual Studio development environment.
 In VS2017 you will be using /W4, which will pop some errors when building the Notepad++. You will need to turn it off so you dont have any
@@ -15,4 +15,23 @@ and it should be work with the VS2015, and VS2017.
 https://sourceforge.net/projects/boost/files/boost/1.55.0/
 
 
-3- 
+3- time.h libaray
+
+In C programming language time.h (used as ctime in C++) is a header file defined in the C Standard Library 
+that contains time and date function declarations to provide standardized access to time/date manipulation and formatting.
+
+4- _tzset 
+
+The _tzset function uses the current setting of the environment variable TZ to assign values to three global variables: _daylight, _timezone, and _tzname. 
+These variables are used by the _ftime and localtime functions to make corrections from coordinated universal time (UTC) to local time, and by the time function to compute UTC from system time. 
+
+“_tzset.” _tzset, msdn.microsoft.com/en-us/library/90s5c885.aspx.
+
+5- _stat/_wstat 
+
+** The _stat function obtains information about the file or directory specified by path and stores it in the structure pointed to by buffer.
+_stat automatically handles multibyte-character string arguments as appropriate, recognizing multibyte-character sequences.
+** The  _wstat is a wide-character version of _stat; the path argument to _wstat is a wide-character string.
+_wstat and _stat behave identically except that _wstat does not handle multibyte-character strings.
+
+# For the timezone bug we just needed to add the time.h 

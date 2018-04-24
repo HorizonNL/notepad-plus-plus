@@ -1,0 +1,19 @@
+Authenticode check failed unable to load Scintilla Library #3805
+the bug link is:  https://github.com/notepad-plus-plus/notepad-plus-plus/issues/3805
+
+
+Description of the Issue
+Upon Starting Notepad++
+
+Steps to Reproduce the Issue
+Downloaded the ZIP for notepad++ 7.5.1
+Ran Notepad++
+Expected Behavior
+Should start notepad++
+
+Actual Behavior
+Pop up for "Library Verification Failure" with the message "Authenticode Check Failure: signature or signing certificate are not recognized"
+Followed by a Pop up with "Exception On WM_CREATE" with the message "ScintillaEditView::init : SCINTILLA ERROR - Can not load the dynamic library"
+
+Debug Information
+Notepad++ doesn't run.

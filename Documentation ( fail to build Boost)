@@ -8,12 +8,12 @@ https://github.com/notepad-plus-plus/notepad-plus-plus
 so i choose Boost_1_64_0
 https://sourceforge.net/projects/boost/files/boost-binaries/
 
-3. For those who wants to build Notepad++ with Visual studio 2017. 
-4. make sure that when you download Visual studio you choose some options that you will find it with the Workloads summary which are: 
+For those who wants to build Notepad++ with Visual studio 2017. 
+3. make sure that when you download Visual studio you choose some options that you will find it with the Workloads summary which are: 
   - VC++ 2017 toolset (x86, x64)
   - Windows 10 SDK (10.0.16299.0) for desktop 
   - VC++ 2015.3 v140 toolset for desktop (x86, x64)
-5. If you click in build note pad option and it shows to you some error then you have to follow these steps: 
+4. If you click in build notepad++ option and it shows to you some error then you have to follow these steps: 
     - go to project properties
     - click on C/C++
     - choose turn off all warnings (/WO) that u will find it in Warning level
@@ -26,6 +26,7 @@ https://sourceforge.net/projects/boost/files/boost-binaries/
     - right-click on the project name in the Solution Explorer window,
     - then Properties → Linker → General → Additional Library Directories.
     - Enter <boost_path>\stage\lib
+    - you need to change x64 to X86 which is in Visual studio because Notepad++ v7.5.4 (32-bit) it just work with x86
 7. Also, you need to download SDK which you can find it at the following link:  
    https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
 
